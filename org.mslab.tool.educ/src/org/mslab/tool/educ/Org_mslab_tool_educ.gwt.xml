@@ -8,6 +8,9 @@
 <module rename-to='org_mslab_tool_educ'>
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
+  <inherits name="com.google.gwt.i18n.I18N"/>
+  <inherits name="com.google.gwt.json.JSON" />  
+  <inherits name="com.google.gwt.resources.Resources" />
 
   <!-- Inherit the default GWT style sheet.  You can change       -->
   <!-- the theme of your GWT application by uncommenting          -->
@@ -18,6 +21,12 @@
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
 
   <!-- Other module inherits                                      -->
+  <inherits name="com.google.gwt.visualization.Visualization"/>
+  <inherits name="gdurelle.tagcloud.TagCloud"/>
+  <inherits name='org.vaadin.gwtgraphics.GWTGraphics'/>
+  <inherits name="com.google.common.html.Html"/>
+  <inherits name="com.kiouri.sliderbar.SliderBarMVP" />
+  <inherits name="com.summatech.gwt.GwtTimepicker"/>
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='org.mslab.tool.educ.client.Org_mslab_tool_educ'/>
