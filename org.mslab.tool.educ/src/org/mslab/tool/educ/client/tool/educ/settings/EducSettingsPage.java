@@ -1,14 +1,15 @@
-package org.mslab.commons.client.tool.educ.settings;
+package org.mslab.tool.educ.client.tool.educ.settings;
 
-import org.mslab.commons.client.core.ui.Refreshable;
-import org.mslab.commons.client.core.ui.panels.CommonDisclosurePanel;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.settings.geo.GeoLocationSection;
-import org.mslab.commons.client.tool.educ.settings.pref.AbstractFormatPanel;
-import org.mslab.commons.client.tool.educ.settings.pref.CityAndProvinceFormatPanel;
-import org.mslab.commons.client.tool.educ.settings.pref.NameFormatPanel;
-import org.mslab.commons.client.tool.educ.settings.pref.PhoneFormatPanel;
-import org.mslab.commons.client.tool.educ.settings.theme.ThemePanel;
+import javax.security.auth.Refreshable;
+
+import org.mslab.tool.educ.client.core.ui.panels.CommonDisclosurePanel;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.settings.geo.GeoLocationSection;
+import org.mslab.tool.educ.client.tool.educ.settings.pref.AbstractFormatPanel;
+import org.mslab.tool.educ.client.tool.educ.settings.pref.CityAndProvinceFormatPanel;
+import org.mslab.tool.educ.client.tool.educ.settings.pref.NameFormatPanel;
+import org.mslab.tool.educ.client.tool.educ.settings.pref.PhoneFormatPanel;
+import org.mslab.tool.educ.client.tool.educ.settings.theme.ThemePanel;
 
 import com.google.gwt.event.logical.shared.CloseEvent;
 import com.google.gwt.event.logical.shared.OpenEvent;

@@ -1,15 +1,15 @@
-package org.mslab.commons.client.tool.educ.people.explorer;
+package org.mslab.tool.educ.client.tool.educ.people.explorer;
 
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.school.explorer.AbstractFilterCategory;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.PhoneNumber;
-import org.mslab.commons.shared.types.PhoneNumber.Category;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
-import org.mslab.commons.shared.types.educ.Person.Gender;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.AbstractFilterCategory;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.PhoneNumber;
+import org.mslab.tool.educ.shared.types.PhoneNumber.Category;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.Person;
+import org.mslab.tool.educ.shared.types.educ.Person.Gender;
 
 public class PersonFilterCategory extends AbstractFilterCategory {
 	//

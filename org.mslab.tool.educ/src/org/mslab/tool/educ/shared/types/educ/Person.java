@@ -1,9 +1,9 @@
-package org.mslab.commons.shared.types.educ;
+package org.mslab.tool.educ.shared.types.educ;
 
 import java.io.Serializable;
 
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.text.Text;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.text.Text;
 
 @SuppressWarnings("serial")
 public class Person implements Serializable {

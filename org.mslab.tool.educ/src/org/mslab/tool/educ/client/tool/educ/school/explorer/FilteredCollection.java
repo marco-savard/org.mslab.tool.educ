@@ -1,8 +1,8 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.List;
 
-import org.mslab.commons.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.MessageFormat;
 
 //
 // inner classes

@@ -1,17 +1,13 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.DecoratedTextBox2;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.panels.IconTabLayoutPanelOld;
-import org.mslab.commons.client.core.ui.panels.IconTabPanelBuilder;
-import org.mslab.commons.client.tool.educ.EducContent;
-import org.mslab.commons.client.tool.educ.school.explorer.SchoolFilterExplorer;
-import org.mslab.commons.client.tool.educ.school.explorer.TreeExplorer;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationListViewer.OrganizationListViewerContent;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.DecoratedTextBox2;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.panels.IconTabPanelBuilder;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.OrganizationListViewer.OrganizationListViewerContent;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.dom.client.Style.Unit;

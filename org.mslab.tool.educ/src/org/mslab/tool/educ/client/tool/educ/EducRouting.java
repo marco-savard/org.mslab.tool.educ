@@ -1,7 +1,7 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.Person;
 
 public class EducRouting {
 

@@ -5,4 +5,4 @@
  * @author Marco
  *
  */
-package org.mslab.commons.shared.types.educ;
+package org.mslab.tool.educ.shared.types.educ;

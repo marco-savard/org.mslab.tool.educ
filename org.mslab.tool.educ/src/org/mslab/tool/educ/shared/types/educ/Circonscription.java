@@ -1,4 +1,4 @@
-package org.mslab.commons.shared.types.educ;
+package org.mslab.tool.educ.shared.types.educ;
 
 import java.io.Serializable;
 import java.util.Arrays;

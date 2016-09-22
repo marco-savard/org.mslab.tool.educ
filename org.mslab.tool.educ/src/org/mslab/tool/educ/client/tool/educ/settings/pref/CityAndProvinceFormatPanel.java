@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.settings.pref;
+package org.mslab.tool.educ.client.tool.educ.settings.pref;
 
 public class CityAndProvinceFormatPanel extends AbstractFormatPanel {
 	public static final String[] BUILTIN_FORMATS = new String[] {

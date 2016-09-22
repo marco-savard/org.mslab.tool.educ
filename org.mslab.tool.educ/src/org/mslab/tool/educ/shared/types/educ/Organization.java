@@ -1,15 +1,14 @@
-package org.mslab.commons.shared.types.educ;
+package org.mslab.tool.educ.shared.types.educ;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.PhoneNumber;
-import org.mslab.commons.shared.types.RegionAdministrative;
-import org.mslab.commons.shared.types.PhoneNumber.Category;
-import org.mslab.commons.shared.types.educ.Person.Gender;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.PhoneNumber;
+import org.mslab.tool.educ.shared.types.RegionAdministrative;
+import org.mslab.tool.educ.shared.types.educ.Person.Gender;
 
 @SuppressWarnings("serial")
 public abstract class Organization implements Serializable, Comparable<Organization> {

@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import com.google.gwt.visualization.client.VisualizationUtils;
 import com.google.gwt.visualization.client.visualizations.corechart.AreaChart;

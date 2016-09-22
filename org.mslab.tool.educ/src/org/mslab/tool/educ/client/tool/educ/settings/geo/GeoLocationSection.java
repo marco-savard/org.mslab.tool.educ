@@ -1,20 +1,17 @@
-package org.mslab.commons.client.tool.educ.settings.geo;
+package org.mslab.tool.educ.client.tool.educ.settings.geo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.system.IpInfo;
-import org.mslab.commons.client.core.ui.PostalCodePicker;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.EducShell;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationMapViewer.Row;
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.text.GeoFormat;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.system.IpInfo;
+import org.mslab.tool.educ.client.core.ui.PostalCodePicker;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.text.GeoFormat;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
 
 import com.google.gwt.core.client.Callback;
 import com.google.gwt.dom.client.Style.Unit;

@@ -1,27 +1,32 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.AbstractIconButton;
-import org.mslab.commons.client.core.ui.SelectionButton;
-import org.mslab.commons.client.core.ui.SelectionButtonGroup;
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.educ.EducAnchor;
-import org.mslab.commons.client.tool.educ.EducListBox;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.people.viewer.content.PeoplePanel;
-import org.mslab.commons.client.tool.educ.people.viewer.content.PersonRenderer;
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
-import org.mslab.commons.shared.text.AlphabeticComparator;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Person;
+
+
+
+
+
+import org.mslab.tool.educ.client.core.ui.AbstractIconButton;
+import org.mslab.tool.educ.client.core.ui.SelectionButton;
+import org.mslab.tool.educ.client.core.ui.SelectionButtonGroup;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.AbstractTheme;
+import org.mslab.tool.educ.client.tool.educ.EducAnchor;
+import org.mslab.tool.educ.client.tool.educ.EducListBox;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.people.viewer.content.PeoplePanel;
+import org.mslab.tool.educ.client.tool.educ.people.viewer.content.PersonRenderer;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.EntityViewable;
+import org.mslab.tool.educ.shared.text.AlphabeticComparator;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Person;
 
 import com.google.gwt.animation.client.Animation;
 import com.google.gwt.dom.client.Style;

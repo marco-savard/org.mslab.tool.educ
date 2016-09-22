@@ -1,27 +1,26 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.educ.AbstractExplorer;
-import org.mslab.commons.client.tool.educ.EducContent;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.EducShell;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationAbstractFilter;
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.RegionAdministrative;
-import org.mslab.commons.shared.types.educ.OrdreAppartenance;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.School;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.AbstractTheme;
+import org.mslab.tool.educ.client.tool.educ.AbstractExplorer;
+import org.mslab.tool.educ.client.tool.educ.EducContent;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.OrganizationAbstractFilter;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.RegionAdministrative;
+import org.mslab.tool.educ.shared.types.educ.OrdreAppartenance;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.School;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.event.logical.shared.CloseEvent;
 import com.google.gwt.event.logical.shared.CloseHandler;

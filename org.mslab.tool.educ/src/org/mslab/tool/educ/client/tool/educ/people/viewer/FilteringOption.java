@@ -1,6 +1,4 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
-
-import org.mslab.commons.client.tool.educ.people.viewer.FilteringOption.SearchField;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 public class FilteringOption {
 	public enum SearchField {ALL_FIELDS, GIVEN_NAME, FAMILY_NAME, PHONE_NUMBER};

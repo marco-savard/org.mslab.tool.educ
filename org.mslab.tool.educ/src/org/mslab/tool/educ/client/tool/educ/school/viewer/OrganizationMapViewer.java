@@ -1,16 +1,15 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducShell;
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.EducShell;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.logical.shared.ResizeEvent;

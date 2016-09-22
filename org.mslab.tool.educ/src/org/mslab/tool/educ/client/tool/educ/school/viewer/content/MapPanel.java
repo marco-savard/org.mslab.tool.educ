@@ -1,14 +1,14 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.EducShell;
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.tool.educ.EducShell;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;

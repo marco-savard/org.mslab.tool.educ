@@ -1,18 +1,16 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.OrganizationCategories.AbstractCategorizer;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.CityOld;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.RegionAdministrative;
-import org.mslab.commons.shared.types.educ.City;
-import org.mslab.commons.shared.types.educ.OrdreAppartenance;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.School;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.RegionAdministrative;
+import org.mslab.tool.educ.shared.types.educ.City;
+import org.mslab.tool.educ.shared.types.educ.OrdreAppartenance;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.School;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 public class OrganizationCategories {
 	

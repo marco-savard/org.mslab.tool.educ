@@ -1,11 +1,11 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 public abstract class AbstractContentViewer extends GridPanel {
 

@@ -1,13 +1,9 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.school.explorer.AbstractFilterExplorer;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 public class SchoolFilterExplorer extends AbstractFilterExplorer<Organization> {
 	

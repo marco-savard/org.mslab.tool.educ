@@ -1,6 +1,4 @@
-package org.mslab.commons.client.tool.educ.settings.pref;
-
-import org.mslab.commons.shared.text.MessageFormat;
+package org.mslab.tool.educ.client.tool.educ.settings.pref;
 
 public class PhoneFormatPanel extends AbstractFormatPanel {
 	public static final String[] BUILTIN_FORMATS = new String[] {

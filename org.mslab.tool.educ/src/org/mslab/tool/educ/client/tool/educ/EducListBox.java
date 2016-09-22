@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
 import com.google.gwt.user.client.ui.ListBox;
 

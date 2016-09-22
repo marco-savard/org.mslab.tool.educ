@@ -1,7 +1,7 @@
-package org.mslab.commons.shared.types.educ;
+package org.mslab.tool.educ.shared.types.educ;
 
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.RegionAdministrative;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.RegionAdministrative;
 
 @SuppressWarnings("serial")
 public class School extends Organization {

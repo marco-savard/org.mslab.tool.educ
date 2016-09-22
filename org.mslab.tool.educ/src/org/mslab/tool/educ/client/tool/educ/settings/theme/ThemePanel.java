@@ -1,13 +1,10 @@
-package org.mslab.commons.client.tool.educ.settings.theme;
+package org.mslab.tool.educ.client.tool.educ.settings.theme;
 
-import org.mslab.commons.client.core.ui.Refreshable;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.slider2.Slider2;
-import org.mslab.commons.client.core.ui.slider2.SliderEvent2;
-import org.mslab.commons.client.core.ui.slider2.SliderListener2;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.Color;
+import org.mslab.tool.educ.client.core.ui.Refreshable;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.slider.Slider2;
+import org.mslab.tool.educ.client.core.ui.slider.SliderEvent2;
+import org.mslab.tool.educ.client.core.ui.slider.SliderListener2;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.HTML;

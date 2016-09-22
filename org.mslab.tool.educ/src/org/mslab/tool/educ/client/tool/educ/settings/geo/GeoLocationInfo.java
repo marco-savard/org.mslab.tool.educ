@@ -1,7 +1,6 @@
-package org.mslab.commons.client.tool.educ.settings.geo;
+package org.mslab.tool.educ.client.tool.educ.settings.geo;
 
-import org.mslab.commons.client.core.system.IpInfo;
-import org.mslab.commons.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.GeoLocation;
 
 public class GeoLocationInfo {
 	private static GeoLocation _location;

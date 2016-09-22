@@ -1,10 +1,10 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
-import org.mslab.commons.shared.types.educ.Person;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.EntityViewable;
+import org.mslab.tool.educ.shared.types.educ.Person;
 
 import com.google.gwt.user.client.ui.DeckPanel;
 

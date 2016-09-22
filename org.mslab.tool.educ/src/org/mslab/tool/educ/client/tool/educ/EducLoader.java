@@ -1,7 +1,7 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.types.ContactSuggestNames;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.types.ContactSuggestNames;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

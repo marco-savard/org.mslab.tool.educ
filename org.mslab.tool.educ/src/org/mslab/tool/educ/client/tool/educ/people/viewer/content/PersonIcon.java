@@ -1,7 +1,7 @@
-package org.mslab.commons.client.tool.educ.people.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.people.viewer.content;
 
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.shared.types.Color;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.shared.types.Color;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.dom.client.Style.Unit;

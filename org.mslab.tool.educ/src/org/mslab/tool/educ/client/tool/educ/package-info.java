@@ -5,4 +5,4 @@
  * @author Marco
  *
  */
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;

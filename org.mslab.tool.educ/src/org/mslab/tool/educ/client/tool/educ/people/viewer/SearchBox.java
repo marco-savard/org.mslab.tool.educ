@@ -1,16 +1,13 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.PhoneTextBox;
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.people.viewer.FilteringOption.SearchField;
-import org.mslab.commons.client.tool.educ.settings.pref.Preferences;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.Color;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.people.viewer.FilteringOption.SearchField;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.Color;
 
 import com.google.gwt.animation.client.Animation;
 import com.google.gwt.dom.client.Style;

@@ -1,13 +1,11 @@
-package org.mslab.commons.client.tool.educ.people.explorer;
+package org.mslab.tool.educ.client.tool.educ.people.explorer;
 
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.school.explorer.AbstractFilterExplorer;
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Person;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.AbstractFilterExplorer;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.EntityViewable;
+import org.mslab.tool.educ.shared.types.educ.Person;
 
 public class PersonFilterExplorer extends AbstractFilterExplorer<Person> {
 	

@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,14 +7,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.OrganizationCategories;
-import org.mslab.commons.client.tool.educ.OrganizationCategories.AbstractCategorizer;
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.OrganizationCategories;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.AbstractFilterCategory.AbstractCategorizer;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.EntityViewable;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.event.logical.shared.ResizeEvent;
 import com.google.gwt.event.logical.shared.ResizeHandler;

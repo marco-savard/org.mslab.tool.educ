@@ -1,11 +1,10 @@
-package org.mslab.commons.client.tool.educ.settings.pref;
+package org.mslab.tool.educ.client.tool.educ.settings.pref;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.PostalCode;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.shared.text.MessageFormat;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.dom.client.ClickEvent;

@@ -1,9 +1,7 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.settings.pref.Preferences;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.PhoneFormatter;
+import org.mslab.tool.educ.client.tool.educ.settings.pref.Preferences;
+import org.mslab.tool.educ.shared.text.PhoneFormatter;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.event.dom.client.KeyUpEvent;

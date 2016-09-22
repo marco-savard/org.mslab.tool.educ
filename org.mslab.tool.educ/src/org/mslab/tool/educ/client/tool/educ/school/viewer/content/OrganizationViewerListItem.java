@@ -1,22 +1,19 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.RangeHTML;
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.ThemeChangeEvent;
-import org.mslab.commons.client.core.ui.theme.ThemeChangeHandler;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.ui.RangeAnchor;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.text.Text;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.RangeHTML;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.ThemeChangeEvent;
+import org.mslab.tool.educ.client.core.ui.theme.ThemeChangeHandler;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.ui.RangeAnchor;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.dom.client.Style.Unit;

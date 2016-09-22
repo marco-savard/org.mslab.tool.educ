@@ -1,10 +1,9 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.EducLoader;
-import org.mslab.commons.shared.types.ContactSuggestNames;
+import org.mslab.tool.educ.client.tool.educ.EducLoader;
+import org.mslab.tool.educ.shared.types.ContactSuggestNames;
 
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.dom.client.Style.BorderStyle;

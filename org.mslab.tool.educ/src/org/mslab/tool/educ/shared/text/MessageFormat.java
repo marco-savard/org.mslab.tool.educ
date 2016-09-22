@@ -1,4 +1,4 @@
-package org.mslab.commons.shared.text;
+package org.mslab.tool.educ.shared.text;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more

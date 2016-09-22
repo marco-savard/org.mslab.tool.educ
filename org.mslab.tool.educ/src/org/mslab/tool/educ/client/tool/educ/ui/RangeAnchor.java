@@ -1,11 +1,10 @@
-package org.mslab.commons.client.tool.educ.ui;
+package org.mslab.tool.educ.client.tool.educ.ui;
 
-import org.mslab.commons.client.tool.educ.EducAnchor;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.Text;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.tool.educ.EducAnchor;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.Text;
+import org.mslab.tool.educ.shared.types.Color;
 
 import com.google.gwt.user.client.ui.Anchor;
 

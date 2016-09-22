@@ -1,4 +1,4 @@
-package org.mslab.commons.server.services;
+package org.mslab.tool.educ.server.services;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -8,10 +8,9 @@ import java.util.List;
 
 import javax.servlet.ServletOutputStream;
 
-import org.mslab.commons.server.schools.OrganizationFinder;
-import org.mslab.commons.server.schools.OrganizationFinder.OrganizationRepository;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.OrganizationEClass;
+import org.mslab.tool.educ.server.schools.OrganizationFinder;
+import org.mslab.tool.educ.server.schools.OrganizationFinder.OrganizationRepository;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 public class OrganizationsCsvWriter {
 	private OutputStream _output;

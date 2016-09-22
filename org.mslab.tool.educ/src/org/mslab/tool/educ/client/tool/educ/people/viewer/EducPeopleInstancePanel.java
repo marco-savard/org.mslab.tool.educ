@@ -1,23 +1,22 @@
-package org.mslab.commons.client.tool.educ.people.viewer;
+package org.mslab.tool.educ.client.tool.educ.people.viewer;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Comparator;
 
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducAnchor;
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.EducRouting;
-import org.mslab.commons.client.tool.educ.EducShell;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.people.viewer.content.PersonRenderer;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
-import org.mslab.commons.shared.types.educ.School;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.EducAnchor;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.client.tool.educ.EducRouting;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.people.viewer.content.PersonRenderer;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.Person;
+import org.mslab.tool.educ.shared.types.educ.School;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.dom.client.Style.FontStyle;

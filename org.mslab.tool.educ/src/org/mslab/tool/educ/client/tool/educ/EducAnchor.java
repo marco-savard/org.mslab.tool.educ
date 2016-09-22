@@ -1,6 +1,6 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
-import org.mslab.commons.shared.types.Color;
+import org.mslab.tool.educ.shared.types.Color;
 
 import com.google.gwt.dom.client.Style.Cursor;
 import com.google.gwt.event.dom.client.MouseOutEvent;

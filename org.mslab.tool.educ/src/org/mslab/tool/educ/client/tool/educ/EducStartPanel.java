@@ -1,15 +1,15 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
 import java.util.Date;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.ProgressBar;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.ThematicButton;
-import org.mslab.commons.client.tool.services.ServiceStore;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.ProgressBar;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.ThematicButton;
+import org.mslab.tool.educ.client.tool.services.ServiceStore;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.dom.client.ClickEvent;

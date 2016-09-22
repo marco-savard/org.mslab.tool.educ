@@ -1,21 +1,19 @@
-package org.mslab.commons.client.tool.educ;
+package org.mslab.tool.educ.client.tool.educ;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.GradientBackground;
-import org.mslab.commons.client.core.ui.panels.AbstractApplicationPanel;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.core.ui.theme.ThemeChangeEvent;
-import org.mslab.commons.client.core.ui.theme.ThemeChangeHandler;
-import org.mslab.commons.client.tool.MenuTabPanel;
-import org.mslab.commons.client.tool.educ.people.EducPeoplePage;
-import org.mslab.commons.client.tool.educ.settings.EducSettingsPage;
-import org.mslab.commons.client.tool.snippets.SnippetContext;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
+import org.mslab.tool.educ.client.core.ui.panels.AbstractApplicationPanel;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.AbstractTheme;
+import org.mslab.tool.educ.client.core.ui.theme.ThemeChangeEvent;
+import org.mslab.tool.educ.client.core.ui.theme.ThemeChangeHandler;
+import org.mslab.tool.educ.client.tool.MenuTabPanel;
+import org.mslab.tool.educ.client.tool.educ.people.EducPeoplePage;
+import org.mslab.tool.educ.client.tool.educ.settings.EducSettingsPage;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.Person;
 
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.dom.client.Style.FontWeight;

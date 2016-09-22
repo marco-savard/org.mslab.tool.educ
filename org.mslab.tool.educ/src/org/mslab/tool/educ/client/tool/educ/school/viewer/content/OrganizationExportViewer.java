@@ -1,18 +1,17 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.Refreshable;
-import org.mslab.commons.client.core.ui.panels.CommonDisclosurePanel;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.ThematicButton;
-import org.mslab.commons.client.core.ui.theme.ThematicLabel;
-import org.mslab.commons.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
-import org.mslab.commons.shared.educ.util.OrganizationWriter;
-import org.mslab.commons.shared.services.DownloadService;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.Text;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.Refreshable;
+import org.mslab.tool.educ.client.core.ui.panels.CommonDisclosurePanel;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.ThematicButton;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
+import org.mslab.tool.educ.shared.educ.util.OrganizationWriter;
+import org.mslab.tool.educ.shared.services.DownloadService;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.Text;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.Scheduler;

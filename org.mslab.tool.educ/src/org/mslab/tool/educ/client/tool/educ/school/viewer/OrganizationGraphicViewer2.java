@@ -1,19 +1,20 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.mslab.commons.client.core.ui.IconLabel;
-import org.mslab.commons.client.core.ui.NumberTextBox;
-import org.mslab.commons.client.core.ui.SelectionButton;
-import org.mslab.commons.client.core.ui.SelectionButtonGroup;
-import org.mslab.commons.client.core.ui.icons.InfoIcon;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.panels.ShowSourcePanel;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.bundles.SourceBundle;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
+
+//import org.mslab.commons.client.core.ui.panels.ShowSourcePanel;
+//import org.mslab.commons.client.tool.bundles.SourceBundle;
+import org.mslab.tool.educ.client.core.ui.IconLabel;
+import org.mslab.tool.educ.client.core.ui.NumberTextBox;
+import org.mslab.tool.educ.client.core.ui.SelectionButton;
+import org.mslab.tool.educ.client.core.ui.SelectionButtonGroup;
+import org.mslab.tool.educ.client.core.ui.icons.InfoIcon;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.AbstractTheme;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -130,6 +131,7 @@ public class OrganizationGraphicViewer2 extends GridPanel implements KeyUpHandle
 		_grid.getFlexCellFormatter().setColSpan(row, 1, 2);
 		row++;
 		
+		/*
 		//show source
 		ShowSourcePanel srcPanel = new ShowSourcePanel();
 		srcPanel.setWidth("100%");
@@ -139,6 +141,7 @@ public class OrganizationGraphicViewer2 extends GridPanel implements KeyUpHandle
 		_grid.getFlexCellFormatter().setColSpan(row, 0, 4);
 		_grid.getFlexCellFormatter().setWidth(row, 0, "100%");
 		row++;
+		*/
 		
 		//init
 		_areaChartDisplayCommand = new AreaChartDisplayCommand();

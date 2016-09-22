@@ -1,4 +1,4 @@
-package org.mslab.commons.server.services;
+package org.mslab.tool.educ.server.services;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -6,25 +6,21 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.mslab.commons.client.tool.services.GeoService;
-import org.mslab.commons.server.commonnames.CommonNameFinder;
-import org.mslab.commons.server.postalcodes.PostalCodeFinder;
-import org.mslab.commons.server.schools.OrganizationFinder;
-import org.mslab.commons.server.schools.OrganizationFinderOld;
-import org.mslab.commons.shared.text.HtmlEncoder;
-import org.mslab.commons.shared.text.HtmlEncoder2;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.text.Text;
-import org.mslab.commons.shared.text.UnicodeEncoder;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.Captcha;
-import org.mslab.commons.shared.types.Contact;
-import org.mslab.commons.shared.types.ContactSuggestNames;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PhoneNumber;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.util.Random;
+import org.mslab.tool.educ.client.tool.services.GeoService;
+import org.mslab.tool.educ.server.commonnames.CommonNameFinder;
+import org.mslab.tool.educ.server.postalcodes.PostalCodeFinder;
+import org.mslab.tool.educ.server.schools.OrganizationFinder;
+import org.mslab.tool.educ.shared.text.StringExt;
+import org.mslab.tool.educ.shared.text.Text;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.Captcha;
+import org.mslab.tool.educ.shared.types.Contact;
+import org.mslab.tool.educ.shared.types.ContactSuggestNames;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PhoneNumber;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.util.Random;
 
 import com.google.gwt.user.server.Base64Utils;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;

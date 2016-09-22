@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -9,26 +9,17 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 
-import org.mslab.commons.client.core.ui.CloseButton;
-import org.mslab.commons.client.core.ui.CloseButton2;
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.ThematicLabel;
-import org.mslab.commons.client.tool.educ.AbstractExplorer;
-import org.mslab.commons.client.tool.educ.EducContent;
-import org.mslab.commons.client.tool.educ.OrganizationCategories;
-import org.mslab.commons.client.tool.educ.OrganizationCategories.RegionCategorizer;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationAbstractFilter;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.CityOld;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.RegionAdministrative;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.School;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.CloseButton2;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.ThematicLabel;
+import org.mslab.tool.educ.client.tool.educ.AbstractExplorer;
+import org.mslab.tool.educ.client.tool.educ.EducContent;
+import org.mslab.tool.educ.client.tool.educ.OrganizationCategories;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.dom.client.Style.BorderStyle;

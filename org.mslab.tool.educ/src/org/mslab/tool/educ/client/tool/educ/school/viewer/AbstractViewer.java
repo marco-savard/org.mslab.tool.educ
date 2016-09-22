@@ -1,7 +1,6 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.school.explorer.EntityViewable;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.EntityViewable;
 
 import com.google.gwt.user.client.ui.SimplePanel;
 

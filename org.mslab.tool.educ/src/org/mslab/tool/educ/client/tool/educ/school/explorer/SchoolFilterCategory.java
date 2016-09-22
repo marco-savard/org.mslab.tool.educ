@@ -1,24 +1,17 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.client.tool.educ.OrganizationCategories.AbstractCategorizer;
-import org.mslab.commons.client.tool.educ.school.explorer.AbstractFilterCategory;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PhoneNumber;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.RegionAdministrative;
-import org.mslab.commons.shared.types.PhoneNumber.Category;
-import org.mslab.commons.shared.types.educ.City;
-import org.mslab.commons.shared.types.educ.OrdreAppartenance;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.Person;
-import org.mslab.commons.shared.types.educ.School;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
-import org.mslab.commons.shared.types.educ.Person.Gender;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.RegionAdministrative;
+import org.mslab.tool.educ.shared.types.educ.City;
+import org.mslab.tool.educ.shared.types.educ.OrdreAppartenance;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.School;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.i18n.client.NumberFormat;
 

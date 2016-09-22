@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.explorer;
+package org.mslab.tool.educ.client.tool.educ.school.explorer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,13 +8,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
-import org.mslab.commons.client.core.ui.CloseButton2;
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.ThematicAnchor;
-import org.mslab.commons.client.core.ui.theme.ThematicBadge;
-import org.mslab.commons.client.tool.educ.school.explorer.AbstractFilterCategory.AbstractCategorizer;
-import org.mslab.commons.shared.types.Color;
+import org.mslab.tool.educ.client.core.ui.CloseButton2;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.ThematicAnchor;
+import org.mslab.tool.educ.client.core.ui.theme.ThematicBadge;
+import org.mslab.tool.educ.client.tool.educ.school.explorer.AbstractFilterCategory.AbstractCategorizer;
+import org.mslab.tool.educ.shared.types.Color;
 
 import com.google.gwt.dom.client.Style;
 import com.google.gwt.dom.client.Style.BorderStyle;

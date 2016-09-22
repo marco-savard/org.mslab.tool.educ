@@ -1,14 +1,14 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.Comparator;
 
-import org.mslab.commons.client.tool.educ.EducContext;
-import org.mslab.commons.shared.text.AlphabeticComparator;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.PostalCode;
-import org.mslab.commons.shared.types.educ.City;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.tool.educ.EducContext;
+import org.mslab.tool.educ.shared.text.AlphabeticComparator;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.PostalCode;
+import org.mslab.tool.educ.shared.types.educ.City;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 public class OrganizationComparator implements Comparator<Organization> {
 	public enum Criteria {NAME, CITY, POSTAL_CODE, DISTANCE}

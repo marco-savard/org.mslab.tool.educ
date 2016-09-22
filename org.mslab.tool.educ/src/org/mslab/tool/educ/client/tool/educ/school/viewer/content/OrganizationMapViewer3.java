@@ -1,9 +1,9 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.List;
 
-import org.mslab.commons.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.user.client.ui.HTML;

@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 public abstract class OrganizationAbstractFilter {
 	protected String _name; 

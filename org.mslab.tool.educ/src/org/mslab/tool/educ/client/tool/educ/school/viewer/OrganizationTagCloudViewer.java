@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.viewer;
+package org.mslab.tool.educ.client.tool.educ.school.viewer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,24 +8,22 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.mslab.commons.client.core.ui.StyleUtil;
-import org.mslab.commons.client.core.ui.WordTag;
-import org.mslab.commons.client.core.ui.WordTagCloud;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.core.ui.theme.AbstractTheme;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationListViewer.OrganizationListViewerContent;
-import org.mslab.commons.client.tool.educ.school.viewer.OrganizationListViewer.OrganizationViewerHeaderContent;
-import org.mslab.commons.shared.text.AlphabeticComparator;
-import org.mslab.commons.shared.text.CharacterExt;
-import org.mslab.commons.shared.text.MessageFormat;
-import org.mslab.commons.shared.text.Text;
-import org.mslab.commons.shared.types.Address;
-import org.mslab.commons.shared.types.CityOld;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.GeoLocation;
-import org.mslab.commons.shared.types.educ.City;
-import org.mslab.commons.shared.types.educ.Organization;
+import org.mslab.tool.educ.client.core.ui.StyleUtil;
+import org.mslab.tool.educ.client.core.ui.WordTag;
+import org.mslab.tool.educ.client.core.ui.WordTagCloud;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.core.ui.theme.AbstractTheme;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.OrganizationListViewer.OrganizationViewerHeaderContent;
+import org.mslab.tool.educ.shared.text.AlphabeticComparator;
+import org.mslab.tool.educ.shared.text.CharacterExt;
+import org.mslab.tool.educ.shared.text.MessageFormat;
+import org.mslab.tool.educ.shared.text.Text;
+import org.mslab.tool.educ.shared.types.Address;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.GeoLocation;
+import org.mslab.tool.educ.shared.types.educ.City;
+import org.mslab.tool.educ.shared.types.educ.Organization;
 
 import com.google.gwt.dom.client.Style.BorderStyle;
 import com.google.gwt.dom.client.Style.Cursor;

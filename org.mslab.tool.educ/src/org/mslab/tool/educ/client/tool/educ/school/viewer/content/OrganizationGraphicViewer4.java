@@ -1,4 +1,4 @@
-package org.mslab.commons.client.tool.educ.school.viewer.content;
+package org.mslab.tool.educ.client.tool.educ.school.viewer.content;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,17 +7,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.mslab.commons.client.core.ui.SelectionButton;
-import org.mslab.commons.client.core.ui.SelectionButtonGroup;
-import org.mslab.commons.client.core.ui.SelectionButtonGroup.SelectionChangeHandler;
-import org.mslab.commons.client.core.ui.panels.GridPanel;
-import org.mslab.commons.client.tool.educ.EducTheme;
-import org.mslab.commons.client.tool.educ.OrganizationCategories;
-import org.mslab.commons.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
-import org.mslab.commons.shared.text.StringExt;
-import org.mslab.commons.shared.types.Color;
-import org.mslab.commons.shared.types.educ.Organization;
-import org.mslab.commons.shared.types.educ.SchoolBoard;
+import org.mslab.tool.educ.client.core.ui.SelectionButton;
+import org.mslab.tool.educ.client.core.ui.SelectionButtonGroup;
+import org.mslab.tool.educ.client.core.ui.SelectionButtonGroup.SelectionChangeHandler;
+import org.mslab.tool.educ.client.core.ui.panels.GridPanel;
+import org.mslab.tool.educ.client.tool.educ.EducTheme;
+import org.mslab.tool.educ.client.tool.educ.OrganizationCategories;
+import org.mslab.tool.educ.client.tool.educ.school.viewer.content.OrganizationComparator.Criteria;
+import org.mslab.tool.educ.shared.types.Color;
+import org.mslab.tool.educ.shared.types.educ.Organization;
+import org.mslab.tool.educ.shared.types.educ.SchoolBoard;
 
 import com.google.gwt.dom.client.Style.Unit;
 import com.google.gwt.event.logical.shared.ResizeEvent;
